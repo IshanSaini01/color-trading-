@@ -1,0 +1,39 @@
+.verifi-code-container{
+    display: flex;
+    justify-content: space-between;
+}
+.verification-code{
+    width: 70%;
+}
+.verification-code input{
+    width: 100%;
+    outline: none;
+    border: transparent;
+    font-size: 16px;
+}
+.otp-section{
+    width: 25%;
+}
+.otp-section input{
+    width: 100%;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.register-btn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.register-btn button{
+    width: 100%;
+    height: 45px;
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 16px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
